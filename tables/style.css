@@ -1,0 +1,23 @@
+body {
+    background-color: #6987c9;
+    color: #bcc4db;
+}
+
+h1 {
+    color: #c0a9b0;
+}
+
+.blue-row {
+    background-color: blue;
+    color: white;
+}
+
+.green-row {
+    background-color: green;
+    color: white;
+}
+
+.orange-row {
+    background-color: orange;
+    color: white;
+}
