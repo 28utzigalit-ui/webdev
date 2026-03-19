@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+img,
+video,
+audio,
+iframe {
+    margin: 20px;
+    padding: 20px;
+    border: 1px dashed green;
+}
