@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: red;
+}
+
+a:active {
+    background-color: rgb(197, 179, 155);
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
