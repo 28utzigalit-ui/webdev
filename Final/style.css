@@ -1,0 +1,163 @@
+#wrapper {
+     display: grid;
+     grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+     background-color: rgb(255, 0, 128)
+}
+
+nav {
+     grid-column: 2/5;
+}
+
+nav a {
+     border: 1px solid rgb(0, 66, 248);
+     text-decoration: none;
+     color: rgb(201, 9, 191);
+     padding: 20px;
+     font-size: 20px;
+     display: block;
+     text-align: center;
+
+
+}
+
+nav a:hover {
+     color: blueviolet;
+
+}
+
+h1,
+h2,
+p,
+ul {
+     grid-column: 2/5;
+}
+
+img {
+     grid-column: 3;
+     width: 100%;
+}
+
+footer {
+     grid-column: 2/5;
+}
+
+
+
+
+
+
+
+
+form {
+     display: flex;
+     flex-flow: column nowrap;
+     grid-column: 2/4;
+     border: 1px solid rgb(92, 65, 65);
+
+
+}
+
+#Contact {
+     width: 400px;
+     height: 400px;
+     grid-column: 4;
+
+}
+
+#h1 {
+     color: rgb(128, 53, 143);
+     grid-column: 3;
+     text-align: center;
+}
+
+#h2 {
+     color: rgb(94, 8, 151);
+     grid-column: 3;
+     text-align: center;
+}
+
+#h3 {
+     color: rgb(122, 8, 151);
+     grid-column: 3;
+     text-align: center;
+}
+
+#Locations1 {
+     color: rgb(22, 8, 151);
+     grid-column: 3;
+     text-align: center;
+}
+
+
+p {
+     color: rgb(243, 13, 185);
+     grid-column: 3;
+     text-align: center;
+     size: 12px;
+}
+
+li {
+     color: rgb(139, 8, 151);
+     grid-column: 3;
+     text-align: center;
+     size: 12px;
+     list-style: none
+}
+
+body {
+     background-color: lightblue;
+}
+
+
+
+
+td {
+     background-color: white;
+}
+
+table {
+     background-color: lightgray;
+}
+
+th {
+     background-color: #1f2937;
+     color: white;
+}
+
+nav a {
+     text-decoration: none;
+     color: white;
+     background-color: #1f2937;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 5px;
+     transition: 0.3s;
+}
+
+/* hover = when mouse goes over */
+nav a:hover {
+     background-color: #3b82f6;
+
+}
+
+/* active = when clicked */
+nav a:active {
+     background-color: #2563eb;
+}
+
+#home {
+     border: 1px solid rgb(0, 66, 248);
+     text-decoration: none;
+     color: rgb(201, 9, 191);
+     padding: 20px;
+     font-size: 20px;
+     display: block;
+     text-align: center;
+
+
+}
+
+#home:hover{
+     background-color: #3b82f6;
+
+}
